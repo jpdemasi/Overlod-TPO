@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OVERLORDS</title>
+  <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./static/css/crud.css">
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="right-section">
+      <div class="icon-container">
+          <img src="../static/img/gift icono.gif" alt="Icono GIF" id="icono">
+      </div>
+      <h1><a href="./index.html" style="font-size: 30px;">Overlords-Game</a></h1>
+  </div>
+
+    <div class="left-section">
+      <nav>
+        <ul>
+          <li>
+            <a href="./Descargas.html" title="Seccion de Descargas">
+              Descargas
+            </a>
+  
+          </li>
+          <li>
+            <a href="./registrarse.html" title="Pagina de Registro">
+              Registrarse
+            </a>
+  
+          </li>
+          <li>
+            <a href="./iniciar sesion.html" title="Inicio de Sesion">
+              Iniciar Sesion
+            </a>
+  
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <main class="asd-container">
+    
+    <div class="divmain">
+      <section id="form">
+          <form action="" enctype="multipart/form-data" id="data_panel">
+              <div class="container d-flex">
+                  <div class="form-control d-flex-column">
+                      <label for="">Nombre</label>
+                      <input type="text" class="input-search" name="name" id="name">
+                  </div>
+                  <div class="form-control d-flex-column">
+                      <label for="">Mail</label>
+                      <input type="text" class="input-search" name="mail" id="mail">
+                  </div>
+                  <div class="form-control d-flex-column">
+                      <label for="">Password</label>
+                      <input type="text" class="input-search" name="password" id="password">
+                  </div>
+                  <input type="hidden" class="" name="id" id="id_user">
+                  <button class="btn-cac" type="button" id="btn-add-data">Agregar</button>
+              </div>
+          </form>
+          <br>
+          <br>
+  </div>
+  </div>
+  </section>
+  <section id="list" class="container">
+      <h2 class="search-title">Panel de usuarios</h2>
+      <table id="userList" class="table">
+          <thead>
+              <tr>
+                  <th>Nombre</th>
+                  <th>E-mail</th>
+                  <th>Password</th>
+              </tr>
+          </thead>
+          <tbody>
+          </tbody>
+      </table>
+      <br>
+      <br>
+      <br>
+      <div id="list-div-users">
+
+      </div>
+
+  </section>
+</div>
+
+  </main>
+
+  <footer>
+    <a href="">Términos y Condiciones</a>
+    <a href="https://es.wikipedia.org/wiki/Ayuda" title="Wiki">Ayuda</a>
+    <a href="./consultas.html" title="Sección de Consultas">Contactos</a>
+    <a href="https://play.google.com/store" title="PlayStore">Google Play</a>
+    <a href="https://store.steampowered.com/" title="Tienda De Steam">Steam</a>
+  </footer>
+
+  <script src="./statics/js/"></script>
+  <script src="./static/js/db.js"></script>
+
+</body>
+
+</html>
